@@ -1,4 +1,6 @@
 Todoapp::Application.routes.draw do
+  root to: 'todo_pages#list'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
